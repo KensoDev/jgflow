@@ -45,3 +45,21 @@ issue-id. Which you can then create a branch with.
 
 2. Checking open issues that I have and picking one up.
 
+## Usage
+
+### Login
+
+In order to use `jgflow` you first you need to login.
+
+`jgflow login` will prompt you 3 things.
+
+```
+Type your username please: avi.zurel@DOMAIN.com
+Please type your password. Don't worry, nothing will show on the screen: ************************
+What is the instance URL for Jira (no need for https://): ORG.atlassian.net
+Successfully logged in to Jira, congrats!
+```
+
+Currently, it will panic if you have the wrong credentials, in the future, we
+will error out gracefully.
+
